@@ -1,0 +1,639 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Yeseva One', cursive;*/
+
+/** Montserrat Medium **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: normal;
+    src: url("http://mongiboy.ru/skorpom/fonts/Montserrat-Medium.woff2") format("woff2"),
+         url("http://mongiboy.ru/skorpom/fonts/Montserrat-Medium.woff") format("woff");
+}
+
+/** Montserrat Bold **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-style: normal;
+    src: url("http://mongiboy.ru/skorpom/fonts/Montserrat-Bold.woff2") format("woff2"),
+         url("http://mongiboy.ru/skorpom/fonts/Montserrat-Bold.woff") format("woff");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	color: #333;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+@media(max-width: 768px){
+	html{
+		font-size: 14px;
+	}
+}
+
+.font{
+	font-family: 'Yeseva One', cursive;
+}
+
+.red{
+	color: #d50000;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.border{
+	border: 2px solid indigo;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	background: #d50000;
+	height: 10vh;
+}
+
+@media (max-width: 426px) {
+	header{
+	height: 20vh;
+}
+}
+
+header .flex{
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logoImg{
+	margin: 8px 0;
+}
+
+.logoImg a img{
+	width: 8vh;
+}
+
+.logoText p {
+	color: #fff;
+	font-size: 1.5rem;
+	margin-left: 16px;
+	text-align: left;
+}
+
+p.compName.font{
+	font-size: 2rem;
+}
+
+@media (max-width: 321px) {
+	p.compName.font{
+	font-size: 1.7rem;
+	}
+}
+
+.headerPhone a, .headerPhone p {
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+.headerPhone{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 426px) {
+	.headerPhone{
+	margin: 0 auto;
+	}
+}
+
+#coverbg{
+	background:
+	linear-gradient(rgba(0,0,0,.5),
+	rgba(0,0,0,.5)),
+	url(../images/altcoverbg.jpg) center/cover;
+	height: 90vh;
+}
+
+@media (max-width: 426px) {
+	#coverbg{
+	background:
+	linear-gradient(rgba(0,0,0,.5),
+	rgba(0,0,0,.5)),
+	url(../images/mob-bg.jpg) center/cover;
+	height: 80vh;
+}
+}
+
+#coverbg p{
+	color: white;
+	text-shadow: 2px 2px 8px #333;
+}
+
+.coverTitle{
+	padding-top: 20vh;
+    font-size: 3.5rem;
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px){
+	.coverTitle{
+	font-size: 3.5rem;
+	padding-top: 10vh;
+	margin: 0 8px;
+	}
+}
+
+@media (max-width: 321px){
+	.coverTitle{
+	padding-top: 5vh;
+	}
+}
+
+@media (max-width: 768px){
+	.coverTitle{
+	font-size: 3rem;
+	}
+}
+
+
+.coverDesc{
+	font-size: 3rem;
+    padding-top: 1rem;
+    margin: 0 8px;
+}
+
+@media (max-width: 768px){
+	.coverDesc{
+	font-size: 2rem;
+	}
+}
+
+#coverbg a, #advantage a, .fooBtn{
+	color: white;
+	font-size: 1.5rem !important;
+	text-transform: uppercase;
+	background: #d50000;
+	padding: 1rem;
+	border-radius: 8px;
+	text-shadow: none;
+
+}
+
+#coverbg a:hover, .fooBtn:hover{
+	background: white;
+	color: #d50000;
+	border: 1px solid #d50000; 
+}
+
+p.findСheap{
+	font-size: 32px;
+}
+
+@media (max-width: 768px){
+	p.findСheap{
+		font-size: 28px;
+	}
+}
+
+#coverbg p.findСheap{
+	margin-top: 15vh;
+}
+
+@media (max-width: 425px){
+	#coverbg p.findСheap{
+		margin-top: 10vh;
+	}
+}
+
+.btn{
+	margin-top: 5vh;
+}
+
+@media (max-width: 426px) {
+	.btn{
+	margin-top: 5vh;
+	}
+}
+
+h1{
+	padding-top: 56px;
+}
+
+h2{
+	padding-top: 56px;
+	font-size: 2rem;
+}
+
+#about p{
+	padding-top: 16px;
+}
+
+.serviceCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 250px;
+	flex-wrap: wrap;
+	border-radius: 8px;
+	border: 2px solid #d50000;
+	margin: 0 1rem 3rem;
+}
+
+@media (min-width: 876px) and (max-width: 1158px){
+	.serviceCard {
+		width: 200px;
+	}
+}
+
+.cardBody{
+	flex-grow: 1;
+	padding: 0 4px;
+}
+
+.serviceCard img{
+	width: 100%;
+	border-radius: 6px 6px 0 0;
+}
+
+.cardPrice, .cardTitle{
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding: 1.5rem 0 1rem;
+}
+
+.cardBtn{
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 700;
+	background: #d50000;
+	padding: 1rem;
+	border: 1px solid #d50000;
+	border-radius: 0 0 6px 6px;
+}
+
+.serviceCard a p:hover{
+	background: white;
+	color: #d50000;
+	border: 1px solid #d50000; 
+	border-radius: 0 0 6px 6px;
+}
+
+#services .flex{
+	padding-top: 1.5rem;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#services p.findСheap{
+	margin-bottom: 16px;
+}
+
+.dopPrice{
+	border-radius: 8px;
+}
+
+.priceString{
+	color: #333;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	padding: 8px 24px;
+}
+
+.service{
+	text-align: left;
+	width: 70%;
+}
+
+.priceCard{
+	width: 250px;
+	margin-top: 32px;
+}
+
+@media (min-width: 876px) and (max-width: 1158px){
+	.priceCard {
+		width: 200px;
+	}
+}
+
+.priceCard img {
+    width: 80px;
+}
+
+#advantage .flex {
+	justify-content: space-around;
+}
+
+#howWork .flex{
+	flex-wrap: nowrap;
+}
+
+.steeps{
+	margin-top: 24px;
+	align-items: center;
+	padding: 0 24px;
+}
+
+.steeps img{
+	width: 80px;
+	flex-shrink: 0;
+}
+
+.steepsDesc p:first-child{
+	font-size: 1.5rem;
+    margin-left: -100px;
+}
+
+.steepsDesc p:last-child{
+	text-align: left;
+	margin: 8px 0 0 16px;
+}
+
+.arrow{
+	margin: 16px 0;
+}
+
+.advBtn{
+	margin-top: 64px;
+}
+
+.snoska{
+    margin-top: 24px;
+    padding: 0 24px;
+}
+
+.snoska p {
+    text-align: left;
+    margin-top: 8px;
+}
+
+footer{
+	height: 100%;
+	background: #333;
+	margin-top: 48px;
+	padding-bottom: 24px;
+}
+
+footer .wrapper{
+	justify-content: space-around;
+}
+
+footer .flex {
+    flex-wrap: wrap-reverse;
+}
+
+.contacts, .form{
+	margin-top: 48px;
+}
+
+.contacts p, .form p, .contacts a{
+	color: white !important;
+}
+
+.contacts .font, .form .font {
+	font-size: 2rem;
+}
+
+.contacts p{
+	text-align: left;
+}
+
+.soc{
+	margin-top: 16px;
+    text-align: start;
+}
+
+.soc img{
+	width: 32px;
+}
+
+#fooCompany{
+	font-family: 'Yeseva One';
+	font-size: 1.5rem;	
+}
+
+.margTop{
+	margin-top: 8px;
+}
+
+footer .contacts .flex{
+	align-items: center;
+}
+
+footer .flex img{
+	margin-right: 8px;
+}
+
+.politika{
+	max-width: 300px;
+    text-align: left;
+}
+
+#modalForm .politika{
+	width: 240px;
+	font-size: 13px;
+}
+
+input{
+	display: block;
+	outline:none;
+}
+
+.fooField{
+	margin: 8px auto;
+    width: 300px;
+    border-radius: 4px;
+    height: 32px;
+    text-align: left;
+    border: none;
+    padding-left: 8px;
+    font-size: 1rem;
+}
+
+#modalForm .fooField{
+	width: 240px;
+}
+
+.fooBtn{
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+    margin: 24px auto;
+    cursor: pointer;
+}
+
+#modalForm .fooBtn{
+	width: 240px;
+}
+
+#politika p, #obrabotka p{
+	text-align: left;
+	margin-top: 24px;
+}
+
+#politika ol, #obrabotka ol{
+	margin-top: 24px;
+	list-style-position:inside;
+}
+
+#politika li, #obrabotka li{
+	text-align: left;
+	 margin-top: 8px;
+}
+
+#politika h1{
+	font-size: 1.7rem;
+}
+
+#politika h2{
+	font-size: 1.5rem;
+}
+
+#reviews .flex img{
+	max-width: 400px;
+    margin-top: 16px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 425px){
+	#reviews .flex img{
+	width: 290px;
+	height: 98.92px;
+    }
+}
+
+#reviews .flex{
+	justify-content: space-around;
+}
+
+.politika a{
+	color: red;
+}
+
+input .font {
+    font-size: 1.5rem;
+}
+
+.linkYaUslugi {
+	margin-top: 1.5rem;
+}
+
+.linkYaUslugi a{
+	color: #2e5faf;
+    font-weight: 700;
+}
+
+/*Modal Form*/
+
+#modalForm{
+	background: #333;
+	width: 300px;
+	height: 400px;
+	margin: auto;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 8px;
+}
+
+#modalForm:target{
+	display: block;
+}
+
+#form1 p{
+	margin: 10px auto;
+}
+
+#form1 p{
+	color: white;
+}
+
+#form1 p:first-child{
+	font-size: 2rem;
+	margin-top: 42px;
+}
+
+.close{
+	position: absolute;
+	right: 16px;
+    top: 16px;
+    transform: rotate(45deg);
+}
+
+#dark{
+	background: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 2;
+}
+
+#dark:target {
+	display: block;
+}
+
+/*Thank You*/
+.tyCover{
+	background: #333;;
+	width: 100%;
+	height: 90vh;
+}
+
+@media (max-width: 426px){
+	.tyCover {
+	    height: 80vh;
+		}
+}
+
+.message{
+	color: #fff;
+	border: 2px solid red;
+	border-radius: 8px;
+	width: 300px;
+	position: absolute;
+	top: 40vh;
+	left: 50%;
+	padding: 1rem;
+	margin-left: -150px;
+}
+
+.message p{
+	color: inherit;
+	margin-top: 16px;
+}
+
+.message p:first-child{
+	font-size: 2rem;
+	margin-top: 0;
+}
+.message p a b{
+	color: #d50000;
+}
