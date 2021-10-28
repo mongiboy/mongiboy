@@ -14,20 +14,14 @@
 			<li><a target="_blank" href="nurse/index.html">Сиделки</a></li>
 			<li><a target="_blank" href="pensia/index.html">Пенсионный юрист</a></li>			
 			<li><a target="_blank" href="skorpom/index.php">Перевозка больных</a></li>			
-			<li><a target="_blank" href="grifon/index.php">Берег Грифона</a></li>			
-			<!-- <li><a target="_blank" href="cska/index.php">Матчи ЦСКА</a></li>			 -->
-			<!-- <li><a href="test/index.php">TEST</a></li>			 -->
+			<li><a target="_blank" href="grifon/index.php">Берег Грифона</a></li>
 		</ol>
 	</nav>
-	<?
-	// $dir = "/home/c/cn01374/public_html";
-	// $dirs = scandir($dir);
-	// print_r($dirs);
-
-	// for($i = 0; $i < count($dirs); $i++){
-	// 	echo $dirs[$i]." is folder? - ";
-	// 	var_dump(is_dir($dirs[$i]));
-	// 	echo"<br>";
-	// }
+    <img src="images/certificate.jpg" width="500" alt="">
+    <?
+    $img = new Imagick(realpath('images/certificate.jpg'));
+    $img->thumbnailImage(250, 0);
+    $img->getImageBlob();
+    echo "<br><img src='data:image/jpg;base64,".base64_encode($img)."' />";
 	?>
 </html>
