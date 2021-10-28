@@ -12,9 +12,9 @@
 		<ol>
 			<li><a target="_blank" href="barbecu/index.html">Барбекю</a></li>
 			<li><a target="_blank" href="nurse/index.html">Сиделки</a></li>
-			<li><a target="_blank" href="pensia/index.html">Пенсионный юрист</a></li>			
-			<li><a target="_blank" href="skorpom/index.php">Перевозка больных</a></li>			
-<			<li><a target="_blank" href="grifon/index.php">Берег Грифона</a></li>
+			<li><a target="_blank" href="pensia/index.html">Пенсионный юрист</a></li>
+			<li><a target="_blank" href="skorpom/index.php">Перевозка больных</a></li>
+			<li><a target="_blank" href="grifon/index.php">Берег Грифона</a></li>
 		</ol>
 	</nav>
     <img src="images/certificate.jpg" width="500" alt="">
