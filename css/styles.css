@@ -4,9 +4,21 @@
 }
 
 body{
+<<<<<<< HEAD
 	background: lightgrey;
+=======
+	background: #000;
+	color: #fff;
+>>>>>>> fc4d918b2f04b625ae7e9bf1d973456cdad10a65
 }
 
 nav{
 	margin: 40px;
+<<<<<<< HEAD
+=======
+}
+
+nav li a {
+	color: #fff;
+>>>>>>> fc4d918b2f04b625ae7e9bf1d973456cdad10a65
 }
