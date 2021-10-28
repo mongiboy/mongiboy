@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: lightgrey;
+}
+
+nav{
+	margin: 40px;
+}
