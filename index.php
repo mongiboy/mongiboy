@@ -17,11 +17,11 @@
 			<li><a target="_blank" href="grifon/index.php">Берег Грифона</a></li>
 		</ol>
 	</nav>
-    <img src="images/certificate.jpg" width="500" alt="">
-    <?
+
+    <?/*
     $img = new Imagick(realpath('images/certificate.jpg'));
     $img->thumbnailImage(250, 0);
     $img->getImageBlob();
     echo "<br><img src='data:image/jpg;base64,".base64_encode($img)."' />";
-	?>
+	*/?>
 </html>
